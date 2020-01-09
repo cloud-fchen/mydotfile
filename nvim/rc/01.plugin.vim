@@ -9,5 +9,10 @@ Plug 'morhetz/gruvbox'
 
 "Plugin(s) for Rust
 Plug 'rust-lang/rust.vim'
+
+"Plugins for Markdown
+
+Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 call plug#end()
 
