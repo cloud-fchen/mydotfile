@@ -6,3 +6,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+"设置文件目录
+let g:UltiSnipsSnippetDirectories=["~/.config/nvim/snippets"]
