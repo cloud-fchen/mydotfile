@@ -43,3 +43,6 @@ nmap LB 0
 nmap LE $
 
 let g:airline_theme='powerlineish'
+
+" python 环境
+let g:python3_host_prog = '~/.config/nvim/python/env/bin/python'
