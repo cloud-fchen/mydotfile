@@ -1,4 +1,5 @@
 dependencies:
   - python=3.7
   - pip:
+    - pynvim==0.4.1
     - neovim
