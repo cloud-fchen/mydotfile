@@ -46,3 +46,6 @@ let g:airline_theme='powerlineish'
 
 " python 环境
 let g:python3_host_prog = '~/.config/nvim/python/env/bin/python'
+
+" 设置恢复文件(.swap)的路径为当前目录，默认路径`~/.local/share/nvim/swap/`
+set dir=.
